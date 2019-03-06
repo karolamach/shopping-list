@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SHOPPING LIST </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="font-awesome.min.css"> -->
+    <link rel="stylesheet" href="../shopping-list/css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Shopping List</h1>
+        <h2>You'll never forget what you needed</h2>
+    </div>
+    <div class="container">
+
+
+        <div class=row>
+            <div class="col-md-12">
+
+
+                <input type="text" id="product" placeholder="Enter product name">
+                <input type="number" id="amount" placeholder="Amount">
+                <select name="choice" id="choice">
+                    <option value="szt">Pieces</option>
+                    <option value="kg">Kilograms</option>
+                    <option value="l">Liters</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <input type="submit" id="send" value="Add">
+                <input type="submit" id="delete" value="Delete">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+
+                <ol></ol>
+
+                <label for="">Number of items to buy</label>
+                <input type="text" value='' id="show">
+            </div>
+        </div>
+
+
+
+    </div>
+    <footer>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="https://github.com/MichalStabrawa"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/michal-stabrawa-48b408102/"><i class="fa fa-3x fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div> -->
+    </footer>
+
+
+    <script src="../shopping-list/js/main.js"></script>
+</body>
+
+</html>
