@@ -18,16 +18,21 @@ body{
 } */
 
 h1{
-    font-size: 60px;
+    font-size: 80px;
     color: orange;
     margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium',  sans-serif;
 
 }
 
 h2{
-    font-size: 20px;
+    font-size: 30px;
     color: blue;
     margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium',  sans-serif;
+
 }
 
 /*container style*/
@@ -40,6 +45,7 @@ input[type="text"] {
     padding-left: 2px;
     margin: 10px;
     text-align: center;
+    /* background-color:olive; */
     
 }
 
