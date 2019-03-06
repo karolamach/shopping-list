@@ -1,6 +1,16 @@
-body{
+*{
     box-sizing: border-box;
+}
+
+body{
+   
     text-align: center;
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-center;
+   
+   
 }
 /* 
 .container{
@@ -67,6 +77,13 @@ select {
 
 .row{
     margin:10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+label{
+    color: firebrick;
 }
 
 
@@ -109,21 +126,14 @@ select {
     background: red;
 }
 
-/*footer*/
 
 footer{
-    text-align:center;
-    height: 30vh;
-}
-
-footer .col-md-12{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-}
-
-footer a{
-    margin: 10px;
-    color:black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:pink;
+    color: skyblue;
+    color: white;
+    text-align: center;
 }
